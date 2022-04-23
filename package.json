@@ -1,0 +1,16 @@
+{
+  "name": "luis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate-schema.js",
+  "scripts": {
+    "train": "node train",
+    "format": "npx prettier --write **/*.{ts,tsx,js,jsx,scss,yml,html,json,md}",
+    "start": "node predict"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
